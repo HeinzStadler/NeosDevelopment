@@ -1,0 +1,6 @@
+[submodule "DistributionPackages/H1.Wolf.Nodetypes"]
+	path = DistributionPackages/H1.Wolf.Nodetypes
+	url = git@github.com:HeinzStadler/H1.Wolf.Nodetypes.git
+[submodule "DistributionPackages/H1.Wolf"]
+	path = DistributionPackages/H1.Wolf
+	url = git@github.com:HeinzStadler/H1.Wolf.git
