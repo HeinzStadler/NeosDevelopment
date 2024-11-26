@@ -19,6 +19,8 @@ services:
 
       # WARNING: you need to add all packages from Distribution packages here ONE BY ONE, see the notice below for explanation.
       - ./Packages/Sites/:/app/Packages/Sites/
+      - ./Packages/Sites/H1.Wolf/:/app/Packages/Sites/H1.Wolf/:cached
+      - ./Packages/Application/H1.Wolf.Nodetypes/:/app/Packages/Application/H1.Wolf.Nodetypes/:cached
     ports:
       - 8081:8081
   # DB
