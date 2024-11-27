@@ -16,18 +16,16 @@
     },
     "require": {
         "neos/neos": "~8.3.0",
-        "neos/site-kickstarter": "~8.3.0",
         "neos/neos-ui": "~8.3.0",
-        "neos/seo": "~3.0",
-        "neos/redirecthandler-neosadapter": "~4.2",
-        "neos/redirecthandler-databasestorage": "~5.0",
-        "neos/redirecthandler-ui": "~2.4",
+        "neos/seo": "~3.3.5",
+        "neos/redirecthandler-neosadapter": "~4.3.4",
+        "neos/redirecthandler-databasestorage": "~5.0.6",
+        "neos/redirecthandler-ui": "~2.5.1",
         "neos/neos-setup": "^3.0",
         "h1/wolf": "@dev",
         "h1/wolf-nodetypes": "@dev"
     },
     "require-dev": {
-        "neos/buildessentials": "~8.3.0",
         "mikey179/vfsstream": "^1.6",
         "phpunit/phpunit": "^9.0",
         "neos/behat": "8.3.0"
