@@ -10,6 +10,7 @@ services:
       dockerfile: Dockerfile.dev
     environment:
       FLOW_CONTEXT: 'Development/Docker'
+      PHP_MEMORY_LIMIT: '512M'
     volumes:
       - ./composer.json:/app/composer.json
       - ./composer.lock:/app/composer.lock
